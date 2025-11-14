@@ -37,6 +37,15 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Firebase Admin SDK 의존성
+    implementation 'com.google.firebase:firebase-admin:9.1.0'
+
+    // Guava 의존성 업그레이드
+    implementation 'com.google.guava:guava:32.0-jre'  // 최신 버전으로 업그레이드
+
+    // protobuf-java 의존성 업그레이드
+    implementation 'com.google.protobuf:protobuf-java:3.21.10'  // 최신 버전으로 업그레이드
 }
 
 
